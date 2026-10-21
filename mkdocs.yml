@@ -1,0 +1,17 @@
+site_name: ATO Copilot Prompt Library
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  - Private Wealth:
+      - Case Orientation Assistant: private-wealth/case-orientation.md
+      - RFI Assessment: private-wealth/rfi-assessment.md
+      - Chronology Generator: private-wealth/chronology-generator.md
+
+  - Governance:
+      - Authoring Standards: governance/authoring-standards.md
+      - Testing Framework: governance/testing-framework.md
+      - Quality Rubric: governance/quality-rubric.md
