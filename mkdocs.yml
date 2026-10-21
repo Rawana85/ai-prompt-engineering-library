@@ -1,17 +1,57 @@
 site_name: ATO Copilot Prompt Library
+site_description: ATO-wide repository for Copilot use cases, prompts, governance and testing assets
+site_url: https://your-org.github.io/ato-copilot-prompt-library
 
 theme:
   name: material
 
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: blue
+
+plugins:
+  - search
+
 nav:
   - Home: index.md
 
-  - Private Wealth:
-      - Case Orientation Assistant: private-wealth/case-orientation.md
-      - RFI Assessment: private-wealth/rfi-assessment.md
-      - Chronology Generator: private-wealth/chronology-generator.md
+  - Business Lines:
+      - Private Wealth:
+          - Case Orientation Assistant: business-lines/private-wealth/case-orientation.md
+          - RFI Response Assessment: business-lines/private-wealth/rfi-assessment.md
+          - Case Chronology Generator: business-lines/private-wealth/chronology-generator.md
+
+      - Public Groups: catalogue.md
+      - Individuals: catalogue.md
+      - Small Business: catalogue.md
+      - Frontline: catalogue.md
 
   - Governance:
       - Authoring Standards: governance/authoring-standards.md
       - Testing Framework: governance/testing-framework.md
       - Quality Rubric: governance/quality-rubric.md
+
+  - Templates:
+      - Use Case Template: templates/use-case-template.md
+      - Prompt Template: templates/prompt-template.md
+
+  - Prompt Patterns: catalogue.md
+
+  - Test Evidence: catalogue.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
