@@ -28,14 +28,9 @@ nav:
 
   - Business Lines:
       - Private Wealth:
-          - Case Orientation Assistant: business-lines/private-wealth/case-orientation.md
-          - RFI Response Assessment: business-lines/private-wealth/rfi-assessment.md
-          - Case Chronology Generator: business-lines/private-wealth/chronology-generator.md
-
-      - Public Groups: catalogue.md
-      - Individuals: catalogue.md
-      - Small Business: catalogue.md
-      - Frontline: catalogue.md
+          - Case Orientation Assistant: business-lines/private-wealth/PW-UC4-001-case-orientation.md
+          - RFI Response Assessment: business-lines/private-wealth/PW-UC4-002-rfi-assessment.md
+          - Case Chronology Generator: business-lines/private-wealth/PW-UC4-003-chronology-generator.md
 
   - Governance:
       - Authoring Standards: governance/authoring-standards.md
