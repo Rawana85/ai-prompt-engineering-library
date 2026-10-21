@@ -2,8 +2,10 @@
 
 ## Private Wealth
 
-- private-wealth/case-orientation.md
+### Proposed Use Cases
 
-- private-wealth/rfi-assessment.md
+- business-lines/private-wealth/case-orientation.md
 
-- private-wealth/chronology-generator.md
+- business-lines/private-wealth/rfi-assessment.md
+
+- business-lines/private-wealth/chronology-generator.md
