@@ -1,22 +1,30 @@
 # ATO Copilot Prompt Library
 
-## Private Wealth
-
-| ID | Use Case | Status |
-|------|------|------|
-| PW-UC4-001 | Case Orientation Assistant | Proposed |
-| PW-UC4-002 | RFI Response Completeness Assessment | Proposed |
-| PW-UC4-003 | Case Chronology Generator | Proposed |
-
 ## Purpose
 
-This repository captures business use cases, prompt candidates, engineered prompts, testing evidence and governance artefacts to support the development of an ATO-wide Copilot Prompt Library.
+This repository provides a central location for:
 
-## Lifecycle
+- Copilot prompts
+- Prompt patterns
+- Governance artefacts
+- Test evidence
+- Authoring guidance
 
-Proposed
-→ Designing
-→ Testing
-→ Approved
-→ Published
-→ Archived
+## Business Areas
+
+- Private Wealth
+- Public Groups
+- Individuals
+- Small Business
+- Frontline
+
+## Governance
+
+All prompts are subject to testing, review and approval before publication.
+
+## Prompt Catalogue
+
+| ID | Name | Area | Status |
+|----|------|------|--------|
+| PW-001 | Case Profiling Assistant | Private Wealth | Draft |
+| PW-002 | RFI Assessment | Private Wealth | Draft |
