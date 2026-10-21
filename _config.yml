@@ -1,0 +1,52 @@
+title: ATO AI Prompt Engineering Library
+description: ATO-wide repository for Copilot use cases, prompt engineering, governance and testing assets
+
+theme: minima
+
+header_pages:
+  - docs/index.md
+  - docs/business-lines/private-wealth/index.md
+  - docs/catalogue.md
+
+show_excerpts: true
+
+minima:
+  social_links:
+    - title: GitHub
+      icon: github
+      url: https://github.com/Rawana85/ai-prompt-engineering-library
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+collections:
+  business-lines:
+    output: true
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+navigation:
+  - title: Home
+    url: /docs/
+
+  - title: Business Lines
+    url: /docs/business-lines/private-wealth/
+
+  - title: Prompt Catalogue
+    url: /docs/catalogue/
+
+  - title: Governance
+    url: /docs/governance/
+
+  - title: Templates
+    url: /docs/templates/
