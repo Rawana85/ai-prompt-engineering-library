@@ -5,8 +5,8 @@ theme: minima
 
 header_pages:
   - docs/index.md
+  - docs/prompt-library.md
   - docs/business-lines/private-wealth/index.md
-  - docs/catalogue.md
 
 show_excerpts: true
 
