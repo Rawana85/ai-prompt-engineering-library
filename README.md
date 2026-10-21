@@ -67,9 +67,9 @@ All prompts are subject to:
 
 | ID | Use Case | Description |
 |------|------|------|
-| [PW-UC4-001](PW-UC4-001-case-orientation.md) | Case Orientation Assistant | Generate a structured taxpayer and group profile from multiple information sources. |
-| [PW-UC4-002](PW-UC4-002-rfi-assessment.md) | RFI Response Completeness Assessment | Assess completeness of taxpayer responses against RFI requirements. |
-| [PW-UC4-003](PW-UC4-003-chronology-generator.md) | Case Chronology Generator | Produce a timeline of events, transactions and supporting evidence. |
+| [PW-UC4-001](docs/business-lines/private-wealth/PW-UC4-001-case-orientation.md) | Case Orientation Assistant | Generate a structured taxpayer and group profile from multiple information sources. |
+| [PW-UC4-002](docs/business-lines/private-wealth/PW-UC4-002-rfi-assessment.md) | RFI Response Completeness Assessment | Assess completeness of taxpayer responses against RFI requirements. |
+| [PW-UC4-003](docs/business-lines/private-wealth/PW-UC4-003-chronology-generator.md) | Case Chronology Generator | Produce a timeline of events, transactions and supporting evidence. |
 
 ## Future Business Areas
 
