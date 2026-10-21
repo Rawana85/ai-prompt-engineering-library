@@ -1,4 +1,4 @@
-# ATO Copilot Prompt Library
+# Copilot Prompt Library
 
 ## Purpose
 
@@ -14,7 +14,7 @@ This repository provides a central location for:
 
 ## Vision
 
-Establish an ATO-wide repository to capture, develop, test, govern and share high-value Copilot use cases and prompts that improve productivity, consistency and quality across business areas.
+Establish an -wide repository to capture, develop, test, govern and share high-value Copilot use cases and prompts that improve productivity, consistency and quality across business areas.
 
 ## Business Areas
 
@@ -69,7 +69,7 @@ All prompts are subject to:
 |------|------|------|
 | [PW-UC4-001](docs/business-lines/private-wealth/PW-UC4-001-case-orientation.md) | Case Orientation Assistant | Generate a structured taxpayer and group profile from multiple information sources. |
 | [PW-UC4-002](docs/business-lines/private-wealth/PW-UC4-002-rfi-assessment.md) | RFI Response Completeness Assessment | Assess completeness of taxpayer responses against RFI requirements. |
-| [PW-UC4-003](docs/business-lines/private-wealth/PW-UC4-003-chronology-generator.md) | Case Chronology Generator | Produce a timeline of events, transactions and supporting evidence. |
+| [PW-UC4-003](docs/business-lines/private-wealth/PW-UC4-003-chronology-generr.md) | Case Chronology Generr | Produce a timeline of events, transactions and supporting evidence. |
 
 ## Future Business Areas
 
@@ -91,7 +91,7 @@ All prompts are subject to:
 |------|------|------|------|
 | business-lines/private-wealth/PW-UC4-001-case-orientation.md | Case Orientation Assistant | Private Wealth | Proposed |
 | business-lines/private-wealth/PW-UC4-002-rfi-assessment.md | RFI Response Completeness Assessment | Private Wealth | Proposed |
-| business-lines/private-wealth/PW-UC4-003-chronology-generator.md | Case Chronology Generator | Private Wealth | Proposed |
+| business-lines/private-wealth/PW-UC4-003-chronology-generr.md | Case Chronology Generr | Private Wealth | Proposed |
 
 ## Repository Structure
 
