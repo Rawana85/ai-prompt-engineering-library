@@ -26,10 +26,11 @@ plugins:
 nav:
   - Home: index.md
 
-  - Business Lines:
+ - Business Lines:
       - Private Wealth:
+          - Overview: business-lines/private-wealth/index.md
           - Case Orientation Assistant: business-lines/private-wealth/PW-UC4-001-case-orientation.md
-          - RFI Response Assessment: business-lines/private-wealth/PW-UC4-002-rfi-assessment.md
+          - RFI Response Completeness Assessment: business-lines/private-wealth/PW-UC4-002-rfi-assessment.md
           - Case Chronology Generator: business-lines/private-wealth/PW-UC4-003-chronology-generator.md
 
   - Governance:
@@ -40,7 +41,7 @@ nav:
   - Templates:
       - Use Case Template: templates/use-case-template.md
       - Prompt Template: templates/prompt-template.md
-
+      
   - Prompt Patterns: catalogue.md
 
   - Test Evidence: catalogue.md
