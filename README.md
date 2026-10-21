@@ -4,11 +4,17 @@
 
 This repository provides a central location for:
 
-- Copilot prompts
-- Prompt patterns
-- Governance artefacts
-- Test evidence
-- Authoring guidance
+- Business use cases for Microsoft Copilot
+- Prompt candidates and engineered prompts
+- Prompt patterns and reusable templates
+- Testing evidence and evaluation results
+- Governance artefacts and standards
+- Prompt engineering guidance
+- Version history and continuous improvement records
+
+## Vision
+
+Establish an ATO-wide repository to capture, develop, test, govern and share high-value Copilot use cases and prompts that improve productivity, consistency and quality across business areas.
 
 ## Business Areas
 
@@ -17,14 +23,116 @@ This repository provides a central location for:
 - Individuals
 - Small Business
 - Frontline
+- Resource Management
+- Objections and Reviews
+- People and Culture
+- Enterprise Strategy and Design
+
+## Prompt Lifecycle
+
+```text
+Proposed
+    ↓
+Design
+    ↓
+Prompt Engineering
+    ↓
+Testing & Refinement
+    ↓
+Approved
+    ↓
+Published
+    ↓
+Review & Optimisation
+```
 
 ## Governance
 
-All prompts are subject to testing, review and approval before publication.
+All prompts are subject to:
 
-## Prompt Catalogue
+- Business owner endorsement
+- Human review requirements
+- Testing and validation
+- Quality assessment
+- Version control
+- Ongoing review and maintenance
 
-| ID | Name | Area | Status |
-|----|------|------|--------|
-| PW-001 | Case Profiling Assistant | Private Wealth | Draft |
-| PW-002 | RFI Assessment | Private Wealth | Draft |
+---
+
+# Current Use Cases
+
+## Private Wealth (UC4)
+
+- business-lines/private-wealth/PW-UC4-001-case-orientation.md
+- business-lines/private-wealth/PW-UC4-002-rfi-assessment.md
+- business-lines/private-wealth/PW-UC4-003-chronology-generator.md
+
+## Future Business Areas
+
+- Public Groups
+- Individuals
+- Small Business
+- Frontline
+- Resource Management
+- Objections and Reviews
+- People and Culture
+- Enterprise Strategy and Design
+---
+
+# Prompt Catalogue
+
+# Prompt Catalogue
+
+| ID | Use Case | Business Area | Status |
+|------|------|------|------|
+| business-lines/private-wealth/PW-UC4-001-case-orientation.md | Case Orientation Assistant | Private Wealth | Proposed |
+| business-lines/private-wealth/PW-UC4-002-rfi-assessment.md | RFI Response Completeness Assessment | Private Wealth | Proposed |
+| business-lines/private-wealth/PW-UC4-003-chronology-generator.md | Case Chronology Generator | Private Wealth | Proposed |
+
+## Repository Structure
+
+```text
+business-lines/
+├── private-wealth/
+├── public-groups/
+├── individuals/
+├── small-business/
+└── frontline/
+
+governance/
+├── authoring-standards.md
+├── testing-framework.md
+└── quality-rubric.md
+
+templates/
+├── use-case-template.md
+└── prompt-template.md
+
+prompt-patterns/
+
+test-evidence/
+
+metrics/
+```
+
+## Success Measures
+
+Prompts will be evaluated against:
+
+- Productivity improvement
+- Quality of output
+- Consistency and repeatability
+- Traceability and explainability
+- Risk management
+- User adoption
+- Reusability across business areas
+
+## Guiding Principle
+
+A prompt is not considered a production asset until it has been:
+
+1. Designed against a clear business problem.
+2. Tested against defined scenarios.
+3. Assessed for quality and risk.
+4. Endorsed by the relevant business owner.
+5. Published with documented limitations and governance requirements.
